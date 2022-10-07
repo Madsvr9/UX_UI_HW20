@@ -1,0 +1,159 @@
+/* 
+font-family: 'Bowlby One', cursive;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Expletus Sans', cursive; 
+*/
+
+/*navbar*/
+
+.nav-item {
+    font-family: 'Expletus Sans', cursive; 
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+/* Hero */
+.jumbotron {
+    color: white;
+    background-image: url("/images/hero-image.webp");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80vh;
+    
+  }
+  .jumbotron h1 {
+    font-size: 9rem;
+    display:flex;
+    justify-content:flex-start;
+    font-family: 'Bowlby One SC', cursive;
+
+    
+  }
+
+/* Fonts */
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+}
+
+h2 {
+    font-family: 'Bowlby One', cursive; 
+}
+
+p {
+    font-family: 'Expletus Sans', cursive;  
+}
+
+
+
+/* Sections */
+
+.mx-auto {
+    display:flex;
+    justify-content: space-evenly;
+}
+  
+.figure-caption {
+    font-family: 'Expletus Sans', cursive;
+    text-align:center;
+    color:white;
+}
+
+section {
+    padding: 20px;
+    margin: 5px;
+    
+}
+
+.figure img {
+    width: 268px;
+    height:271px;
+    object-fit:cover;
+}
+
+section h2 {
+    font-family: 'Bowlby One', cursive; 
+    padding-top:5px;
+    padding-left:1000px;
+    padding-right:1000px;
+    padding-bottom:5px;
+    border:solid;
+    border-color:#AD88B6;
+    background-color:#AD88B6;
+    margin-bottom:30px;
+}
+
+
+.accordion-body {
+    font-family: 'Expletus Sans', cursive;  
+}
+    
+
+
+.carousel-inner p {
+    background-color:#B24E80;
+    font-size: 1.5rem;
+}
+
+.carousel-item img {
+    height: 40vh;
+}
+
+.card p {
+    color:white;
+}
+
+
+#thecard1 {
+    padding:2px;
+    margin:2px;
+    justify-content:right;
+    
+}
+#card1 {
+    background-color: #A6547E;
+}
+
+#thecard2 {
+    padding:2px;
+    margin:2px;
+    justify-content:flex-start;
+    
+}
+
+#card2 {
+    background-color: #F2AED4;
+}
+
+#thecard3 {
+    padding:2px;
+    margin:2px;
+    justify-content:flex-end;
+    
+}
+
+#card3 {
+    background-color:#AD88B6;
+}
+
+#thecard4 {
+    justify-content:flex-start;
+}
+
+#card4 {
+    background-color: #82B6D9;
+}
+
+#thecard5 {
+    justify-content:flex-end;
+}
+
+#card5 {
+    background-color:#643074;
+}
+
+/*footer*/
+
+.footer {
+    background-color:#F2AED4;
+}
