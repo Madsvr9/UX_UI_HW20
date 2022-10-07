@@ -15,7 +15,7 @@ font-family: 'Expletus Sans', cursive;
 /* Hero */
 .jumbotron {
     color: white;
-    background-image: url("./images/hero-image.webp");
+    background-image: url("/images/hero-image.webp");
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
